@@ -1,6 +1,6 @@
 ---
 title: How to - Logic App Graph API Webhook
-permalink: /assets/howtos/Logic-App-Graph-Webhook
+permalink: /assets/howtos/Logic-App-Graph-Webhook/
 parent: How To 
 layout: home
 nav_order: 2
