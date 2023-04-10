@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources
-permalink: /Chaos-Studio-Lab/Resources/
+permalink: /assets/Resources/
 has_children: true 
 nav_order: 8
 ---
