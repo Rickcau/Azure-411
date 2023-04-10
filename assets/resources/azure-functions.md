@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Function Apps
+title: Azure Functions
 parent: Resources 
-permalink: /assets/Resources/Misc/Function-Apps/
+permalink: /assets/Resources/Misc/Azure-Functions/
 ---
-Below you will find a list Azure resouces as it relates to Function Apps. *(This section is a work in-progress!)
+Below you will find a list Azure resouces as it relates to Azure Functions. *(This section is a work in-progress!)
 
 # Function Apps
 
