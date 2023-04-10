@@ -1,6 +1,6 @@
 ---
 title: How to guides
-permalink: /How-To-Guides/
+permalink: /assets/howtos/
 has_children: true 
 layout: home
 nav_order: 2
