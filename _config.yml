@@ -8,7 +8,7 @@ baseurl: "/Azure-411"
 
 aux_links:
   Youtube: https://github.com/just-the-docs/just-the-docs-template
-  Logic App Repo: 
+  Logic App Repo: https://github.com/Rickcau/LogicApps
   
   
 include:
