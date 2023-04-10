@@ -1,6 +1,6 @@
 ---
 title: Knowledge Measures
-permalink: /kms/
+permalink: /assets/kms/
 has_children: true 
 layout: home
 nav_order: 4
