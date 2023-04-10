@@ -3,7 +3,7 @@ title: Labs
 permalink: /Labs/
 has_children: true 
 layout: home
-nav_order: 2
+nav_order: 3
 ---
 
 This section of the site is where you find the hands-on labs.
