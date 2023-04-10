@@ -1,5 +1,5 @@
 ---
-title: Logic App Graph API Webhook
+title: Logic App Webhook
 permalink: /assets/howtos/Logic-App-Graph-Webhook/
 parent: How to guides
 layout: home
