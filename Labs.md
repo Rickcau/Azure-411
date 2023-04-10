@@ -1,6 +1,6 @@
 ---
 title: Labs
-permalink: /Labs/
+permalink: /assets/labs/
 has_children: true 
 layout: home
 nav_order: 3
