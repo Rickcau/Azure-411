@@ -1,6 +1,6 @@
 ---
-title: Lab1 - Logic App Graph API Webhook
-permalink: /assets/labs/Logic-App-Graph-Webhook
+title: Lab1 - Logic App Webhook
+permalink: /assets/labs/Logic-App-Graph-Webhook/
 parent: Labs
 layout: home
 nav_order: 2
