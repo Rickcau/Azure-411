@@ -1,7 +1,9 @@
 ---
 title: How to guides
+permalink: /How-To-Guides/
+has_children: true 
 layout: home
-nav_order: 1
+nav_order: 2
 ---
 
 # How to guides
