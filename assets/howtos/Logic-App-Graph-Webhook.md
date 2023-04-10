@@ -1,7 +1,7 @@
 ---
 title: How to - Logic App Graph API Webhook
 permalink: /assets/howtos/Logic-App-Graph-Webhook/
-parent: How To 
+parent: How to guides
 layout: home
 nav_order: 2
 ---
