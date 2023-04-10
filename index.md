@@ -1,5 +1,5 @@
 ---
-title: About this workshop 
+title: About this site 
 layout: home
 nav_order: 1
 ---
