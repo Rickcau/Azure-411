@@ -1,11 +1,11 @@
 ---
-title: How to - Logic App Graph API Webhook
+title: Logic App Graph API Webhook
 permalink: /assets/howtos/Logic-App-Graph-Webhook/
 parent: How to guides
 layout: home
 nav_order: 2
 ---
-# How to create a Logic App that can be used as a Graph Webhook
+# How to - Create a Logic App that can be used as a Graph Webhook
 In this how-to guide I will go over the fundamentals of what is required for this.  If you would like to learn exactly how to do this, I suggest you go through my hands-on lab [Logic App Graph Webhook]().
 
 
