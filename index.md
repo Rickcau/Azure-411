@@ -3,7 +3,7 @@ title: About this workshop
 layout: home
 nav_order: 1
 ---
-// ![Chaos Engineering]({{ site.baseurl }}/assets/images/ChaosEngineering.jpg ){: width="200px"}
+![]({{ site.baseurl }}/assets/images/Azure.png ){: width="200px"}
 
 # About this site
 This site will be used as way to share various Azure related topics, hands-on labs, how-to guides.  
