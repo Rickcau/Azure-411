@@ -1,24 +1,23 @@
 ---
-title: Home
+title: About this workshop 
 layout: home
+nav_order: 1
 ---
+// ![Chaos Engineering]({{ site.baseurl }}/assets/images/ChaosEngineering.jpg ){: width="200px"}
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# About this site
+This site will be used as way to share various Azure related topics, hands-on labs, how-to guides.  
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Please checkout my [Azure Chaos Studio - Labs site](https://rickcau.github.io/Chaos-Lab) if you want to learn Azure Chaos Studio or any of the [Repositories](https://github.com/Rickcau) I am playing around with.
 
-More specifically, the created site:
+**Disclaimer:** This website is under constant modification.  If you find something isn't working properly, I could be making some changes on the back-end.  At the time this site was published 4/8/2023, Chaos Studio is in *preview* so things could change.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+# Trademarks
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft’s Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party’s policies.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## About the Author 
+My name is *Rick Caudle*, I am a *Principal Cloud Solution Architect* focusing on *Application Innovation*.  Currently, most of my work is focused in Power Platform, Logic Apps, Azure Functions, Azure Load Testing, DevOps, GitHub and Chaos Engineering.  Graph API is also another area I would consider myself well versed in.   
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
 
 ----
 
