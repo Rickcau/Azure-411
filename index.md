@@ -6,7 +6,7 @@ nav_order: 1
 ![]({{ site.baseurl }}/assets/images/Azure.png ){: width="200px"}
 
 # About this site
-This site will be used as way to share various Azure related topics, hands-on labs, how-to guides.  
+This site will be used to share various Azure related topics, hands-on labs, how-to guides.  The goal is to help accelerate your knowledge of Azure and to help you solve Azure related challenges as quickly as possible.  
 
 Please checkout my [Azure Chaos Studio - Labs site](https://rickcau.github.io/Chaos-Lab) if you want to learn Azure Chaos Studio or any of the [Repositories](https://github.com/Rickcau) I am playing around with.
 
