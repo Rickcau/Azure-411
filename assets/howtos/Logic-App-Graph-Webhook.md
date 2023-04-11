@@ -5,7 +5,7 @@ parent: How to guides
 layout: home
 nav_order: 2
 ---
-# Summary
+# Subscribing to Graph Change Notifications with Logic Apps
 In this how-to, I will cover the fundamental concepts and logic that needs to be implimented in order to leverage a Logic App as a Webhook with Graph Change notifications.  If you want a hands-on lab that walks you through the process please [click here]() to navigate to the *hands-on labs* 
 
 # Process the Validation Token that is send when the Graph Subscription is created
