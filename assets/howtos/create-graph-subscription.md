@@ -28,7 +28,9 @@ If the Request boday is properly formated, and you notificaitonUrl endpoint prop
 ![CreateSub]({{ site.baseurl }}/assets/images/graph/GraphCreateSub.jpg)
 
 
-### Get a list of Graph subscriptions ###
+### How to get a list of Graph subscriptions ###
+This will come in handy to check to see what subscriptions are still active.  Keep in mind that the various change notifications can have different expiry max timeframes.  If you need your subscription to run longer than the max limit, you will need to impliment logic to reset the subscription to a new expiration.
+
 1. Navigate to [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer){:target="_blank"} and make sure you are logged-in to an account that has permissions to Graph.
 
 3. Send a GET request to the subscriptions endpoint https://graph.microsoft.com/v1.0/subscriptions.  Below is an example. If you have any subscriptions they will be noted in the Response Preview Window.
