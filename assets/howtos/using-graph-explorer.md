@@ -32,7 +32,7 @@ If you don't have an M365 license then you don't have a mailbox, so you will get
 ![]({{ site.baseurl }}/assets/images/graph/graph-no-mailbox.jpg)
 
 # Useful resouces for this topic
-[Portal to manage consent permissions](https://myapps.microsoft.com/){:target=_blank}
+[Portal to manage consent permissions](https://myapps.microsoft.com/){:target=_blank}<br>
 [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer){:target=_blank}
 
 
