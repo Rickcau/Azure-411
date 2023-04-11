@@ -19,12 +19,12 @@ Once the Logic App has successfully processed the Validate Token, Graph will sta
 
 1. When Graph sends the Logic App a change notification it will send in the request boday a JSON collection with the change notificaiton details.  Graph will continue to retry until it receives a 200 status code with nothing in the response body.
 
-You can review the *Change Notificaiton Example* section in the above link to better understand the format of the JSON and how Graph is expecting the Logic App to respond.
+You can review the *Change Notificaiton Example* section in the [above link](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"} to better understand the format of the JSON and how Graph is expecting the Logic App to respond.
 
 # Closing Summary
 The Logic App must respond to the Validation Token in order for you to be able to create the Graph Subscription and it must proper respond to the change notification.  At this point if the Logic App is properly handling the Vlaidation Token and the change notificaiton you are ready to add business logic.
 
-If you need help setting up the subscription, [click here]() for a steps on how to create a Graph Subscription.
+If you need help setting up the subscription, [click here](/assets/howtos/create-graph-subscription/) for a steps on how to create a Graph Subscription.
 
 
 ----
