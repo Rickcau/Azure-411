@@ -32,7 +32,7 @@ If the Request boday is properly formated, and you notificaitonUrl endpoint prop
 1. Navigate to [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer){:target="_blank"} and make sure you are logged-in to an account that has permissions to Graph.
 
 3. Send a GET request to the subscriptions endpoint https://graph.microsoft.com/v1.0/subscriptions.  Below is an example. If you have any subscriptions they will be noted in the Response Preview Window.
-![GetSubs]({{ site.baseurl }}/assets/images/graph/graphGraphGetSubs.jpg)
+![GetSubs]({{ site.baseurl }}/assets/images/graph/GraphGetSubs.jpg)
 
 # Resources
 [How to properly respond to Graph change notifications]( https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"} 
