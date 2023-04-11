@@ -21,7 +21,7 @@ You can create a subscription by sending a POST request to the subscriptions end
    "latestSupportedTlsVersion": "v1_2"
 }
 ~~~
-Below is a screenhot of what this would look like in Graph Explorer.
+Below is a screenhot of what this would look like in Graph Explorer if the the subscription was successfully created.
 ![CreateSub]({{ site.baseurl }}/assets/images/graph/GraphCreateSub.jpg)
 
 
