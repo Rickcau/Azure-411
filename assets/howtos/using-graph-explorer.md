@@ -1,4 +1,10 @@
-test
+---
+title: Using Graph Explorer
+permalink: /assets/howtos/using-graph-explorer/
+parent: How to guides
+layout: home
+nav_order: 3
+---
 
 **Prerequisites**
 1. [Click here](https://learn.microsoft.com/en-us/graph/graph-explorer/graph-explorer-features){:target=_blank} an read this document on working with Graph Explorer.
