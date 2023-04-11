@@ -1,5 +1,5 @@
 ---
-title: Change Notifications - Logic App
+title: Graph - Logic App Webhook
 permalink: /assets/howtos/Logic-App-Graph-Webhook/
 parent: How to guides
 layout: home
