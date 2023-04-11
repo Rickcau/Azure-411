@@ -6,7 +6,7 @@ layout: home
 nav_order: 3
 ---
 
-**Prerequisites**
+# **Prerequisites**
 1. [Click here](https://learn.microsoft.com/en-us/graph/graph-explorer/graph-explorer-features){:target=_blank} an read this document on working with Graph Explorer.
 2. [Click here](){:target=_blank} an read this document to better under how to consent to permissions.
 3. User account with M365 licesne so you can run the Mail Graph API queries.  You can [click here](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide){:target=_blank} to read details about how to grant a user an M365 license.  
