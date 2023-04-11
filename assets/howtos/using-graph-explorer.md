@@ -17,7 +17,7 @@ nav_order: 3
 ![]({{ site.baseurl }}/assets/images/graph/Graph-SignIn.jpg)
 
 3. You will need to consent to allowing Graph Explorer to read your profile infomation.<br>
-![]({{ site.baseurl }}/assets/images/graph/graph-perms-request.jpg)
+![]({{ site.baseurl }}/assets/images/graph/graph-perms-request.jpg) 
 
 4. Once you consent, you can click on *Run Query* to execut the *GET* request to *https://graph.microsoft.com/v1.0/me*.  It will return the following results:
 ![]({{ site.baseurl }}/assets/images/graph/GraphQuery1.jpg)
