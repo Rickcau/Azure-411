@@ -31,6 +31,9 @@ nav_order: 3
 If you don't have an M365 license then you don't have a mailbox, so you will get the following error when running this query:
 ![]({{ site.baseurl }}/assets/images/graph/graph-no-mailbox.jpg)
 
+Otherwise, if you have an M365 license/mail, the query will return the following results:
+![]({{ site.baseurl }}/assets/images/graph/GraphTotalMsgGood.jpg)
+
 # Useful resouces for this topic
 [Portal to manage consent permissions](https://myapps.microsoft.com/){:target=_blank}<br>
 [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer){:target=_blank}
