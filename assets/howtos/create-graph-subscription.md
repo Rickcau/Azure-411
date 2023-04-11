@@ -1,5 +1,5 @@
 ---
-title: Creating Graph Subscription
+title: Creating Graph Subscriptions
 permalink: /assets/howtos/create-graph-subscription/
 parent: How to guides
 layout: home
