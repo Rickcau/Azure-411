@@ -5,10 +5,10 @@ parent: How to guides
 layout: home
 nav_order: 3
 ---
-    Prerequisites
 # **Prerequisites**
 1. [Read this document](https://learn.microsoft.com/en-us/graph/graph-explorer/graph-explorer-features){:target="_blank"} to get a fundamental understanding of how to us Graph Explorer and to consent to permissions.
-3. A User account with M365 license so you can run the Mail Graph API queries.  You can [click here](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide){:target="_blank"}to read details about how to grant a user an M365 license.  You will have issues with any of the Mail queries without an M365 license.  
+
+2. A User account with M365 license so you can run the Mail Graph API queries.  You can [click here](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide){:target="_blank"} to read details about how to grant a user an M365 license.  You will have issues with any of the Mail queries without an M365 license.  
 
 # 1. How to: - Run a simple Graph API Query
 1. Navigate to the Graph Explorer by [clicking here](https://developer.microsoft.com/en-us/graph/graph-explorer){:target=_blank}.
