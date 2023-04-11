@@ -21,7 +21,10 @@ You can create a subscription by sending a POST request to the subscriptions end
    "latestSupportedTlsVersion": "v1_2"
 }
 ~~~
-Below is a screenhot of what this would look like in Graph Explorer if the the subscription was successfully created.
+**Important Clarification**
+You will make a POST request to the https://graph.microsoft.com/v1.0/subscription endpoint and pass in the a request body that is formatted as outlined above.  For more information on how your notificationUrl should properly respond, refer to [this documentation](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"}
+
+If the Request boday is properly formated, and you notificaitonUrl endpoint properly handles the Validation Token and responds with a 202, the subscription will be created and Graph will respond with these details:
 ![CreateSub]({{ site.baseurl }}/assets/images/graph/GraphCreateSub.jpg)
 
 
@@ -31,3 +34,5 @@ Below is a screenhot of what this would look like in Graph Explorer if the the s
 3. Send a GET request to the subscriptions endpoint https://graph.microsoft.com/v1.0/subscriptions.  Below is an example. If you have any subscriptions they will be noted in the Response Preview Window.
 ![GetSubs]({{ site.baseurl }}/assets/images/graph/graphGraphGetSubs.jpg)
 
+# Resources
+[How to properly respond to Graph change notifications]( https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"} 
