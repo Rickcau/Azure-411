@@ -36,4 +36,4 @@ If you don't have an M365 license then you don't have a mailbox, so you will get
 [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer){:target=_blank}
 
 
-GET https://graph.microsoft.com/v1.0/me/mailFolders
+----
