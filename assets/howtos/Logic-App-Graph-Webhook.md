@@ -23,7 +23,7 @@ Once the Logic App has successfully processed the Validate Token, Graph will sta
 You can review the *Change Notificaiton Example* section in the [above link](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"} to better understand the format of the JSON and how Graph is expecting the Logic App to respond.
 
 ## Closing Summary
-The Logic App must respond to the Validation Token in order for you to be able to create the Graph Subscription and it must properly respond to the change notification.  At this point if the Logic App is properly handling the Vlaidation Token and the change notificaitons you are ready to add business logic.
+The Logic App must respond to the Validation Token in order for you to be able to create the Graph Subscription and it must properly respond to the change notification.  At this point if the Logic App is properly handling the Validation Token and the change notificaitons you are ready to add business logic.
 
 If you need help setting up the Graph subscription, [click here](/assets/howtos/create-graph-subscription/) for steps on how to create a Graph Subscription.
 
