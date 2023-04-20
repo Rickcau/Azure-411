@@ -7,7 +7,7 @@ nav_order: 4
 ---
 # **Prerequisites**
 1. [Read this document](https://learn.microsoft.com/en-us/graph/api/subscription-post-subscriptions?view=graph-rest-1.0&tabs=http){:target="_blank"} to get a fundamental understanding of how to create Graph Subscriptions.
-2. Access to a Shared Mailbox 
+2. Access to a Shared Mailbox (the example below sets up notifications for a Shared Mailbox)
 
 # 1. How-to: - Create a change notificaiton subscription for email in a Shared Mailbox
 You can create a subscription by sending a POST request to the subscriptions endpoint and in the Request body passing the proper JSON.  Below is an example of how the JSON should be formated.
