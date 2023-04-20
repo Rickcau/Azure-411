@@ -5,7 +5,15 @@ parent: Labs
 layout: home
 nav_order: 2
 ---
-TBD
+# Lab 1 - Logic App Webhook
+In this lab we will create a Graph Subscripton that sends change notifications to a Logic App.  We will subscribe to change notifications on a Shared Mailbox.  When completed you will have a Logic App that is able to handle the Validation Token as well as properly respond to the change notifications.
+
+## Prerequisites 
+1. Read and study the details of how the Validation Token and Change Notification needs to be handled by [clicking here](assets/howtos/Logic-App-Graph-Webhook/){:target="_blank"}.
+
+2. 
+
+
 # How to create a Logic App that can be used as a Graph Webhook
 In this how-to guide I will go over the fundamentals of what is required for this.  If you would like to learn exactly how to do this, I suggest you go through my hands-on lab [Logic App Graph Webhook]().
 
