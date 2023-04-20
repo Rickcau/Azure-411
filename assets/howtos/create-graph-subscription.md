@@ -24,7 +24,7 @@ You can create a subscription by sending a POST request to the subscriptions end
 **Important Clarification**
 You will make a POST request to the https://graph.microsoft.com/v1.0/subscription endpoint and pass in the a request body that is formatted as outlined above.  For more information on how your notificationUrl should properly respond, refer to [this documentation](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"}
 
-If the Request boday is properly formated, and you notificaitonUrl endpoint properly handles the Validation Token and responds with a 202, the subscription will be created and Graph will respond with these details:
+If the Request body is properly formated, and your notificaitonUrl endpoint properly handles the Validation Token and responds with a 202, the subscription will be created and Graph will respond with these details:
 ![CreateSub]({{ site.baseurl }}/assets/images/graph/GraphCreateSub.jpg)
 
 
