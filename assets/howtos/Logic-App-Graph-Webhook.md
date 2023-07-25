@@ -10,9 +10,15 @@ nav_order: 2
 In this how-to, I will cover the fundamental concepts and logic that needs to be implimented in order to leverage a Logic App as a Webhook with Graph Change notifications.  If you want a hands-on lab that walks you through the process please [click here]() to navigate to the *hands-on labs* 
 
 ## Process the Validation Token that is sent when the Graph Subscription is created
-1. When you create the Graph Subscription, Graph will send a Validation Token to the notificationUrl, in this case, it will be our Logic App.
+3 Requirements must be met in order for the subscription to be created
 
-2. When the Logic App receives the Validation Token it must respond with a status of 202 and it must include in the reponse body the exact same Validate Token that Graph sent the Logic App as plain text.
+1. An HTTP 200 Status Code must be returned
+2. The Content-Type must be of 'text/plain'
+3. Return a boday containing the Validation Token that was provided by the initial Graph request
+4. All this must be done within 10 seconds of the initial Graph request
+
+Upon making the initial request to Graph to create the Subscription, Graph will call the notificationUrl, sending over the Validation Token.  Once the Validation Token is received, we need to send an HTTP response that meets the requirements above.
+
 [Click here](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"} to read the documentation on how to handle the Validation Token. 
 
 ## Process the change notification
