@@ -24,7 +24,7 @@ Upon making the initial request to Graph to create the Subscription, Graph will 
 ## Process the change notification
 Once the Logic App has successfully processed the Validate Token, Graph will start to send change notification details to the notificaitonUrl when a change occurs.  
 
-1. When Graph sends the Logic App a change notification it will send in the request body a JSON collection with the change notificaiton details.  Graph will continue to retry until it receives a 200 status code with nothing in the response body.
+1. When Graph sends the Logic App a change notification it will send in the request body a JSON collection with the change notificaiton details.  Graph will continue to retry up to 4 Hours.  If Graph does not receive a 200 status code within the period, it will discard the change notification.
 
 You can review the *Change Notificaiton Example* section in the [above link](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks?tabs=http){:target="_blank"} to better understand the format of the JSON and how Graph is expecting the Logic App to respond.
 
