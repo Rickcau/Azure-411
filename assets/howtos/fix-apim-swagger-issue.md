@@ -7,10 +7,9 @@ nav_order: 2
 ---
 #  How-To 
 ## When trying to create an API in APIM you may get an error during import
-In this how-to, I will cover a workaround to file this.  In this how-to, I will cover a workaround to fix this issue.  In this case we are referring to the [Azure Open AI Swagger files found here]( https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/preview) {:target="_blank"}.  
+In this how-to, I will cover a workaround to fix this issue.  In this case we are referring to the [Azure Open AI Swagger files found here]( https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/preview){:target="_blank"}.  
 
 ## Steps to reproduce the issue
-
 1. Navigate to API Management Services in the Azure Portal
 2. Next, click on **+ Add API**
 3. Under **Create from definition** you will see **OpenAI** click on it. The **Create from OpenAPI specification** dialog will appear.
@@ -21,7 +20,6 @@ You will get an error message that states: "One or more fields contains incorrec
 
 ## Steps to workaround the issue.
 The workaround is very simple.  You create a blank API, then you import the Swagger.  Here are the exact steps to fix this issue.
-
 1. Navigate to API Management Services in the Azure Portal
 2. Next, click on **+ Add API**
 3. Under **Define a new API** click on **HTTP**, this will open the **Create an HTTP API**
