@@ -1,5 +1,5 @@
 ---
-title: Graph - Logic App Webhook
+title: APIM Swagger Import Issue
 permalink: /assets/howtos/fix-apim-swagger-import-issue/
 parent: How to guides
 layout: home
