@@ -16,7 +16,7 @@ In this how-to, I will cover a workaround to fix this issue.  In this case we ar
 4. Next, click on **Select a file** and select one of the Swagger files you downloaded from [here]( https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/preview) {:target="_blank"}
 
 You will get an error message that states: "One or more fields contains incorrect values".  Below is an example of the error.
-*place image here*
+![]({{ site.baseurl }}/assets/images/APIM/Issue Importing AOAI Swagger-1.jpg)
 
 ## Steps to workaround the issue.
 The workaround is very simple.  You create a blank API, then you import the Swagger.  Here are the exact steps to fix this issue.
