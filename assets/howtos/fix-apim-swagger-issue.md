@@ -34,7 +34,7 @@ At this point, you will have a blank API.  Now, we need to import the Swagger fo
 
 At this point all the operations will be created based on the Swagger file you just imported.  Below is an example of what the operations may look like after following these steps.
 
-![]({{ site.baseurl }}/assets/images/APIM/Then-Import-the-Swagger.jpg)
+![]({{ site.baseurl }}/assets/images/APIM/Successful-Import.jpg)
 
 ## Closing Summary
 This issue has been reported so if you are not experiencing this issue, it means it has been fixed.
