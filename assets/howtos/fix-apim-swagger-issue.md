@@ -13,7 +13,7 @@ In this how-to, I will cover a workaround to fix this issue.  In this case we ar
 1. Navigate to API Management Services in the Azure Portal
 2. Next, click on **+ Add API**
 3. Under **Create from definition** you will see **OpenAI** click on it. The **Create from OpenAPI specification** dialog will appear.
-4. Next, click on **Select a file** and select one of the Swagger files you downloaded from [here]( https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/preview) {:target="_blank"}
+4. Next, click on **Select a file** and select one of the Swagger files you downloaded from [here]( https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/preview){:target="_blank"}
 
 You will get an error message that states: "One or more fields contains incorrect values".  Below is an example of the error.
 ![]({{ site.baseurl }}/assets/images/APIM/Issue-Importing-AOAI-Swagger-1.jpg)
