@@ -149,7 +149,10 @@ This pattern results in a new connection every time, and if this behavior contin
 
 **Solution**
 
-Consider making your client static or, better yet, employ Dependency Injection (DI) as a best practice. This ensures resource optimization and helps avoid potential network-related exceptions. For a deeper dive into implementing this solution, refer to: [Use dependency injection in .NET Azure Functions | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection){:target="_blank"} .
+Consider making your client static or, better yet, employ Dependency Injection (DI) as a best practice. This ensures resource optimization and helps avoid potential network-related exceptions. 
+For a deeper dive into implementing this solution, refer to: 
+
+[Use dependency injection in .NET Azure Functions | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection){:target="_blank"} .
 
 - Not Leveraging async/await in C#
   When working with network clients or other operations that can be asynchronous in nature, it’s crucial to use the async/await pattern. While it might seem fine for simpler applications, in production settings where operations like file I/O or calls to external systems are common, ignoring the asynchronous pattern can lead to issues.
