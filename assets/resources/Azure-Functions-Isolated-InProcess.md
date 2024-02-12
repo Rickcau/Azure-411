@@ -6,7 +6,7 @@ permalink: /assets/Resources/Misc/Azure-Functions-Isolated-InProcess/
 ---
 Below you will find my comments on Isolated vs. In Process Azure Functions as well as some common patterns to be aware of and to avoid and why.
 
-# Execuitive Summary
+## Execuitive Summary
 
 Isolated Azure Functions, a new model introduced in Azure Functions v3.0, offer several benefits over the traditional In-Process model. Key benefits include improved performance, better dependency management through out-of-the-box support for Dependency Injection (DI), enhanced stability due to isolation from the host process, and language independence.
 
@@ -18,7 +18,7 @@ Microsoft has not announced plans to discontinue support for In-Process Azure Fu
 
 In conclusion, while Isolated Azure Functions present certain challenges, they offer significant advantages over In-Process Azure Functions. Teams should weigh these factors and make an informed decision based on the specific needs of their project.
 
-# Important Notes:
+## Important Notes:
 Service Location:
 1. Service location is a pattern where the Dependency Injection container is used as a service locator, rather than using it to inject dependencies.
 2. This pattern can lead to tightly coupled code, as classes directly ask for their dependencies from the container, making them aware of the container's existence.
