@@ -199,4 +199,6 @@ For a deeper dive into implementing this solution, refer to:
 - Use the Diagnose and Solve Problems tools in Visual Studio and take action
   This tool points you directly to the root of the problem. And it doesn’t stop here. Alongside diagnosing the issue, it offers actionable recommendations to rectify it. This dual capability — to both identify and guide remediation — makes it an indispensable asset.  
 
-  It’s crucial to adhere to best practices. Doing so not only enhances the efficiency and reliability of your functions but also prevents potential pitfalls associated with common anti-patterns. I highly recommend folling the recommendations outlined on [Azure Functions best practices | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp/){:target="_blank"}. 
+  It’s crucial to adhere to best practices. Doing so not only enhances the efficiency and reliability of your functions but also prevents potential pitfalls associated with common anti-patterns.
+
+[Click here learn Azure Function Best Practices](https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp){:target="_blank"}. 
