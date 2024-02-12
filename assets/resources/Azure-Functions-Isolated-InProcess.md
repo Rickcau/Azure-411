@@ -149,7 +149,7 @@ This pattern results in a new connection every time, and if this behavior contin
 
 **Solution**
 
-Consider making your client static or, better yet, employ Dependency Injection (DI) as a best practice. This ensures resource optimization and helps avoid potential network-related exceptions. For a deeper dive into implementing this solution, refer to: (Use dependency injection in .NET Azure Functions | Microsoft Learn)[https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection].
+Consider making your client static or, better yet, employ Dependency Injection (DI) as a best practice. This ensures resource optimization and helps avoid potential network-related exceptions. For a deeper dive into implementing this solution, refer to: [Use dependency injection in .NET Azure Functions | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection){:target="_blank"} .
 
 - Not Leveraging async/await in C#
   When working with network clients or other operations that can be asynchronous in nature, it’s crucial to use the async/await pattern. While it might seem fine for simpler applications, in production settings where operations like file I/O or calls to external systems are common, ignoring the asynchronous pattern can lead to issues.
@@ -196,4 +196,4 @@ Consider making your client static or, better yet, employ Dependency Injection (
 - Use the Diagnose and Solve Problems tools in Visual Studio and take action
   This tool points you directly to the root of the problem. And it doesn’t stop here. Alongside diagnosing the issue, it offers actionable recommendations to rectify it. This dual capability — to both identify and guide remediation — makes it an indispensable asset.  
 
-  It’s crucial to adhere to best practices. Doing so not only enhances the efficiency and reliability of your functions but also prevents potential pitfalls associated with common anti-patterns. I highly recommend folling the recommendations outlined on (Azure Functions best practices | Microsoft Learn)[https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp]
+  It’s crucial to adhere to best practices. Doing so not only enhances the efficiency and reliability of your functions but also prevents potential pitfalls associated with common anti-patterns. I highly recommend folling the recommendations outlined on [Azure Functions best practices | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp){:target="_blank"}. 
