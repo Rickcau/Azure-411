@@ -19,26 +19,26 @@ Microsoft has not announced plans to discontinue support for In-Process Azure Fu
 In conclusion, while Isolated Azure Functions present certain challenges, they offer significant advantages over In-Process Azure Functions. Teams should weigh these factors and make an informed decision based on the specific needs of their project.
 
 ## Important Notes:
-Service Location:
+### Service Location:
 1. Service location is a pattern where the Dependency Injection container is used as a service locator, rather than using it to inject dependencies.
 2. This pattern can lead to tightly coupled code, as classes directly ask for their dependencies from the container, making them aware of the container's existence.
 3. It can make the code harder to test, as dependencies are not explicitly defined and can't be easily substituted with mocks or stubs.
 4. This pattern is considered an anti-pattern in modern software development, as it goes against the principles of Dependency Injection.
 5. To avoid this, dependencies should be injected into classes through constructors, properties, or methods, rather than being directly requested from the container.
 
-# Captive Dependencies:
+### Captive Dependencies:
 1. A captive dependency is a scenario where a singleton service depends on a scoped or transient service.
 2. This can lead to unexpected behavior, as the singleton service is expected to be stateless and long-lived, while the scoped or transient service may have a shorter lifetime.
 3. The scoped or transient service can become 'captive' by the singleton service, leading to potential issues like stale data or incorrect state.
 4. This scenario is considered a pitfall of Dependency Injection, as it can lead to subtle bugs that are hard to diagnose.
 5. To avoid this, ensure that services with longer lifetimes do not depend on services with shorter lifetimes. For example, a singleton service should not depend on a scoped or transient service.
 
-# Transient Services
+### Transient Services
 Transient services are created each time they're requested from the service container. This lifetime works best for lightweight, stateless services.
 
-# Scoped Services
+### Scoped Services
 Scoped services are created once per client request (connection). Use this lifetime for services that need to maintain state within a single client interaction.
 
-# Singleton Services
+### Singleton Services
 Singleton services are created the first time they're requested and then every subsequent request will use the same instance. Use this lifetime for services that are stateless or need to maintain state across multiple client interactions.
 Remember, it's crucial to match the lifetime to the nature of the service to avoid issues like captive dependencies.
