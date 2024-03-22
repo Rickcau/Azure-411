@@ -1,6 +1,7 @@
 ---
 title: Semantic Kernel Labs
 permalink: /assets/labs/Semantic-Kernel
+parent: Labs
 has_children: true 
 layout: home
 nav_order: 4
